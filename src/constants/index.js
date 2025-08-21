@@ -1,19 +1,19 @@
 const navLinks = [
     {
-        name: "Work",
-        link: "#work",
-    },
-    {
-        name: "Experience",
+        name: "Experiencia",
         link: "#experience",
     },
     {
-        name: "Skills",
+        name: "Proyectos",
+        link: "#work",
+    },
+    {
+        name: "Habilidades",
         link: "#skills",
     },
     {
-        name: "Testimonials",
-        link: "#testimonials",
+        // name: "Testimonials",
+        // link: "#testimonials",
     },
 ];
 
@@ -21,71 +21,71 @@ const words = [
     { text: "Ideas", imgPath: "/images/ideas.svg" },
     { text: "Conceptos", imgPath: "/images/concepts.svg" },
     { text: "Diseños", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+    // { text: "Code", imgPath: "/images/code.svg" },
     { text: "Ideas", imgPath: "/images/ideas.svg" },
-    { text: "Concepts", imgPath: "/images/concepts.svg" },
-    { text: "Designs", imgPath: "/images/designs.svg" },
-    { text: "Code", imgPath: "/images/code.svg" },
+    { text: "Conceptos", imgPath: "/images/concepts.svg" },
+    { text: "diseños", imgPath: "/images/designs.svg" },
+    { text: "Codigo", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 2, suffix: "+", label: "Años de Experiencia" },
+    { value: 20, suffix: "+", label: "Proyectos Completados" },
+    { value: 30, suffix: "+", label: "Sitios Responsivos y Optimizados" },
+    { value: 90, suffix: "%", label: "Código Reutilizable y Escalable" },
 ];
 
 const logoIconsList = [
     {
-        imgPath: "/images/logos/company-logo-1.png",
+        imgPath: "/images/logos/three.png",
     },
     {
-        imgPath: "/images/logos/company-logo-2.png",
+        imgPath: "/images/logos/firebase.png",
     },
     {
-        imgPath: "/images/logos/company-logo-3.png",
+        imgPath: "/images/logos/git.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-4.png",
+        imgPath: "/images/logos/GitHub-Mark.png",
     },
     {
-        imgPath: "/images/logos/company-logo-5.png",
+        imgPath: "/images/logos/JavaScript-logo.png",
     },
     {
-        imgPath: "/images/logos/company-logo-6.png",
+        imgPath: "/images/logos/mongodb.png",
     },
     {
-        imgPath: "/images/logos/company-logo-7.png",
+        imgPath: "/images/logos/Node.js_logo.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-8.png",
+        imgPath: "/images/logos/React-icon.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-9.png",
+        imgPath: "/images/logos/Tailwind_CSS_Logo.svg",
     },
     {
-        imgPath: "/images/logos/company-logo-10.png",
+        imgPath: "/images/logos/vercel.png",
     },
     {
-        imgPath: "/images/logos/company-logo-11.png",
+        imgPath: "/images/logos/WordPress_blue_logo.svg",
     },
 ];
 
 const abilities = [
     {
         imgPath: "/images/seo.png",
-        title: "Quality Focus",
-        desc: "Delivering high-quality results while maintaining attention to every detail.",
+        title: "Enfoque en la Calidad",
+        desc: "Entregando resultados de alta calidad mientras cuido cada detalle con precisión.",
     },
     {
         imgPath: "/images/chat.png",
-        title: "Reliable Communication",
-        desc: "Keeping you updated at every step to ensure transparency and clarity.",
+        title: "Comunicación Confiable",
+        desc: "Manteniéndote actualizado en cada paso para garantizar transparencia y claridad.",
     },
     {
         imgPath: "/images/time.png",
-        title: "On-Time Delivery",
-        desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+        title: "Entregas Puntuales",
+        desc: "Asegurando que los proyectos se completen a tiempo, con calidad y atención al detalle.",
     },
 ];
 

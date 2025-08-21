@@ -15,7 +15,7 @@ const NavBar = () => {
         <header className={`navbar ${scrolled ?'scrolled':'not-scrolled'}`}>
             <div className="inner">
                     <a className="logo" href="#hero">
-                        Victor | zzinue
+                        Victor | Guerrero
                     </a>
                 <nav className="desktop"
                     >
@@ -30,7 +30,7 @@ const NavBar = () => {
                 </nav>
                 <a href="#contact" className="contact-btn group:">
                     <div className="inner">
-                        <span >Contact me</span>
+                        <span >Contacto</span>
                     </div>
                 </a>
             </div>
