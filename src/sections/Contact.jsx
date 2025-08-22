@@ -44,7 +44,7 @@ const Contact = () => {
     return (
         <section id='contact' className='flex-center section-padding'>
             <div className='w-full h-full md:px-10 px-5'>
-                <TitleHeader title="Get in Touch With Me" sub='📧 Contact Us'/>
+                <TitleHeader title="Trabajemos Juntos" sub='📧 Contacto'/>
 
 
                 <div className='mt-16 grid-12-cols'>
@@ -53,14 +53,14 @@ const Contact = () => {
                         <div className='flex-center  card-border rounded-xl p-10'>
                             <form onSubmit={handleSubmit} className='w-full flex flex-col gap-7' ref={formRef}>
                                 <div>
-                                    <label htmlFor='name'>Name</label>
+                                    <label htmlFor='name'>Nombre</label>
                                     <input
                                         onChange={handleChange}
                                         type='text'
                                         id='name'
                                         name='name'
                                         value={formData.name}
-                                        placeholder='Enter your name'
+                                        placeholder='Tu nombre'
                                     />
                                 </div>
 
@@ -72,26 +72,26 @@ const Contact = () => {
                                         value={formData.email}
                                         type='email'
                                         id='email'
-                                        placeholder='Enter your email'
+                                        placeholder='Tu email'
                                     />
                                 </div>
 
                                 <div>
-                                    <label htmlFor='message'>Message</label>
+                                    <label htmlFor='message'>Mensaje</label>
                                     <textarea
                                         onChange={handleChange}
                                         name='message'
                                         value={formData.message}
                                         id='message'
                                         rows='5'
-                                        placeholder='Enter your message'
+                                        placeholder='Escribe un mensaje...'
                                     ></textarea>
                                 </div>
 
                                 <button type='submit' disabled={loading}>
                                     <div className='cta-button group '>
                                         <div className='bg-circle'/>
-                                        <p className='text'>{loading ? 'Sending...' : 'Send Message'}</p>
+                                        <p className='text'>{loading ? 'Enviando...' : 'Enviar'}</p>
                                         <div className='arrow-wrapper'>
                                             <img src='/images/arrow-down.svg' alt='arrow'/>
                                         </div>
