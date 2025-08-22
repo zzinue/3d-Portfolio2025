@@ -39,30 +39,43 @@ const ShowcaseSection = () => {
                 <TitleHeader title='Mis Proyectos completados ' sub='🏢Proyectos Personales'/>
                 <div className='showcaselayout mt-22 '>
                     {/*left*/}
-                    <div className='first-project-wrapper' ref={project1Ref}>
-                        <div className='image-wrapper'>
-                            <img src='/images/project1.png' alt='Ryde'/>
+
+                        <div className='first-project-wrapper' ref={project1Ref}>
+                            <div className='image-wrapper'>
+                                <a   target="_blank" href="https://awwards-site-4nui3tq7h-zzinues-projects.vercel.app/">
+                                    <img src='/images/gaming.png' alt='Ryde'/>
+                                </a>
+                            </div>
+                            <div className="text-content">
+                                <h2>Plataforma Interactiva de Videojuegos</h2>
+                                <p className="text-white-50 md:text-xl">
+                                    Moderna Interfaz de video juegos creada con ReactJS y Tailwind CSS. 100% responsiva animada con GSAP.
+                                </p>
+                            </div>
                         </div>
-                        <div className="text-content">
-                            <h2>On-Demand Rides Made Simple with a Powerful, User-Friendly App Called Ryde</h2>
-                            <p className="text-white-50 md:text-xl">
-                                An app built with React Native, Expo, & TailwindCSS for a fast, user-friendly experience.
-                            </p>
-                        </div>
-                    </div>
+
+
                     {/*right*/}
                         <div className="project-list-wrapper overflow-hidden">
                             <div className="project" ref={project2Ref}>
                                 <div className="image-wrapper bg-[#ffefdb]">
-                                    <img src="/images/project2.png" alt="Library Management Platform"/>
+                                    <a   target="_blank" href="https://ecommerce-sanity-stripe-zzinue.vercel.app/">
+                                        <img src="/images/sanitycommerce.png" alt="Library Management Platform"/>
+                                    </a>
+
                                 </div>
-                                 <h2>Lbrary Management Platform</h2>
+                                 <h2>Ecommerce con Sanity</h2>
+                                <p className="text-white-50 md:text-xl">Aplicación web creada con React y Next, para gestión de contenidos y pagos en línea con stripe. Implementada con Sanity como principal CMS.</p>
                             </div>
                             <div className="project" ref={project3Ref}>
                                 <div className="image-wrapper bg-[#ffe7eb]">
-                                    <img src="/images/project3.png" alt=" YC Directory"/>
+                                    <a  target="_blank" href="https://boostrap-bootcamp-page.vercel.app/">
+                                        <img src="/images/tripguide.png" alt=" YC Directory"/>
+                                    </a>
+
                                 </div>
-                                <h2>YC Directory - Startup Showcase App </h2>
+                                <h2>Guia de Turistas Landing Page </h2>
+                                <p className="text-white-50 md:text-xl">Página web desarrollada con las tecnologías de Bootstrap, HTML y CSS3.</p>
                             </div>
                         </div>
 

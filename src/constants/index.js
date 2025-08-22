@@ -261,6 +261,74 @@ const socialImgs = [
     },
 ];
 
+// const projects = [
+//     {
+//         name: "Página Interactiva para el Mundo Gamer",
+//         description:
+//             "Moderna Interfaz de video juegos creada con ReactJS y Tailwind CSS. 100% responsiva animada con GSAP.",
+//         tags: [
+//             {
+//                 name: "reactjs",
+//                 color: "blue-text-gradient",
+//             },
+//             {
+//                 name: "tailwindcss",
+//                 color: "green-text-gradient",
+//             },
+//             {
+//                 name: "GSAP",
+//                 color: "pink-text-gradient",
+//             },
+//         ],
+//         image: jobit,
+//         source_code_link:
+//             "https://awwards-site-4nui3tq7h-zzinues-projects.vercel.app/",
+//     },
+//     {
+//         name: "Full-Stack e-commerce Sanity CMS",
+//         description:
+//             "Aplicación web creada con React y Next, para gestión de contenidos y pagos en línea con stripe. Implementada con Sanity como principal CMS.",
+//         tags: [
+//             {
+//                 name: "react",
+//                 color: "blue-text-gradient",
+//             },
+//             {
+//                 name: "mongodb",
+//                 color: "green-text-gradient",
+//             },
+//             {
+//                 name: "nextjs",
+//                 color: "pink-text-gradient",
+//             },
+//         ],
+//         image: carrent,
+//         source_code_link: "https://ecommerce-sanity-stripe-zzinue.vercel.app/",
+//     },
+//
+//     {
+//         name: "Bootstrap Landing Page",
+//         description:
+//             "Página web desarrollada con las tecnologías de Bootstrap, HTML y CSS3.",
+//         tags: [
+//             {
+//                 name: "nextjs",
+//                 color: "blue-text-gradient",
+//             },
+//             {
+//                 name: "bootstrap",
+//                 color: "green-text-gradient",
+//             },
+//             {
+//                 name: "css",
+//                 color: "pink-text-gradient",
+//             },
+//         ],
+//         image: tripguide,
+//         source_code_link: "https://boostrap-bootcamp-page.vercel.app/",
+//     },
+// ];
+
 export {
     words,
     abilities,
@@ -273,4 +341,5 @@ export {
     techStackIcons,
     techStackImgs,
     navLinks,
+    // projects
 };
