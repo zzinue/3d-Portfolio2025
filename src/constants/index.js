@@ -247,17 +247,19 @@ const testimonials = [
 
 const socialImgs = [
 
-    {
-        name: "fb",
-        imgPath: "/images/fb.png",
-    },
+    // {
+    //     name: "fb",
+    //     imgPath: "/images/fb.png",
+    // },
     {
         name: "YouTube",
         imgPath: "/images/youtube.png",
+        url: "https://www.youtube.com/@zzinuecode"
     },
     {
         name: "linkedin",
         imgPath: "/images/linkedin.png",
+        url:"https://www.linkedin.com/in/zzinue/"
     },
 ];
 

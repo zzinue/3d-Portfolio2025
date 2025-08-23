@@ -6,12 +6,12 @@ const Footer = () => {
         <footer className='footer'>
             <div className='footer-container'>
                 <div className='flex flex-col md:items-start justify-center items-center'>
-                    <a href='/'>Sitio</a>
+                    <a href='/'>zzinue</a>
                 </div>
                 <div className='socials'>
                     {socialImgs.map((img)=>(
                         <a className='icon' target='_blank' href={img.url} key={img.url}>
-                            <img src={img.imgPath}/>
+                            <img src={img.imgPath} />
                         </a>
                     ))}
                 </div>
